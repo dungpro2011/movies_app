@@ -1,6 +1,8 @@
 import React from 'react'
+import LoadMore from '../../component/Buton/LoadMore'
 
 const MoviesTrending = () => {
+
   return (
     <div className="section" id="movies-trending">
         <div className="section-wrapper" id="section-wrapper">
@@ -330,9 +332,7 @@ const MoviesTrending = () => {
                 </div>
               </div>
             </a>
-            <div className="btn-load btn-load-tb">
-              <span>load more</span>
-            </div>
+            <LoadMore />
           </div>
         </div>
       </div>
